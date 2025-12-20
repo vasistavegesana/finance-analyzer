@@ -1,0 +1,38 @@
+Pandas Dataframe is basically  == table like data
+
+The command groupby creates groups but doesnt compute unless there is something that is being asked with it
+
+Aggregation means to combine many of the same to one 
+
+Common Aggregation used: 
+1. sum() = sums everything together
+2. mean() = average of everything
+3. count() = counts how many rows
+4. max() = whats the maximum value of something
+5. min() = whats the minimum value of something
+______________________________________________________
+GroupBy + Aggregation (Notes Version)
+1. clean_df.groupby("category")
+
+Groups rows by category
+No calculation yet
+
+2.["amount"]
+
+Selects the amount column from each group
+
+3. .sum()
+Adds values in each group
+Produces one number per category
+
+That final step (sum) is the aggregation.
+Result: grouped data → summarized values
+______________________________________________________
+
+Why aggregation changes ordering: 
+
+ 1. groupby() alone → keeps original row order
+ 2. groupby() + sum() → Pandas creates a new summarized result
+ 3. Pandas sorts group labels alphabetically by default due to groupby()
+
+That’s why rent moved.

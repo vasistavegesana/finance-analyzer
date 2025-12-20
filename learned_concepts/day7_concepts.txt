@@ -1,0 +1,18 @@
+Day 7 — Data Cleaning (Pandas):
+Pandas converts empty cells to NaN (missing data)
+NaN is a float, not an integer
+
+
+df.dropna(inplace=True)
+Removes rows with missing values
+inplace=True permanently changes df
+
+
+df["amount"] = df["amount"].astype(float)
+Converts data for math operations
+Required because NaN is float
+
+
+df.info()
+Shows column types and non-null counts
+Clean data before groupby to avoid errors and get correct results

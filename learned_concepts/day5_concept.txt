@@ -1,0 +1,43 @@
+always when u code make sure to:
+
+git add .
+git commit -m "Describe what you changed"
+git push
+
+these are the commands that u need to put in terminal
+
+Core Git Commands
+
+git init — start tracking a project
+git status — see current changes
+git add . — stage all changes
+git add <file> — stage one file
+git commit -m "message" — save a snapshot
+git push — upload to GitHub
+
+GitHub / Remote Commands
+git remote add origin <url> — connect to GitHub
+git remote -v — view connected repo
+git branch -M main — set main branch
+
+Daily Workflow
+git status
+git add .
+git commit -m "what changed"
+git push
+
+Useful Safety Commands
+git log — view commit history
+git restore <file> — undo file changes
+git reset HEAD~1 — undo last commit
+
+Branching (Later)
+git branch — list branches
+git checkout -b <name> — create branch
+git checkout main — switch back
+
+Key Terms
+Repository — tracked project
+Commit — saved version
+Stage — selected changes
+Remote — GitHub copy

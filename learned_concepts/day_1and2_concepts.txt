@@ -1,0 +1,21 @@
+Execution Context — file paths are relative to where the program is run
+
+Return vs Print — return passes data, print only displays (None)
+
+Function Contract — inputs in, output out, no side effects
+
+Variable Scope — function variables are local, globals must be passed
+
+Dead Code — unused logic must be removed after refactors
+
+CSV Module — built-in tool for reading structured external data
+
+csv.DictReader — converts CSV rows into dictionaries by column name
+
+Type Casting — file data is text and must be converted before math
+
+Single Source of Truth — expenses come only from the CSV, not code
+
+Data Pipeline Thinking — input → parse → compute → output
+
+

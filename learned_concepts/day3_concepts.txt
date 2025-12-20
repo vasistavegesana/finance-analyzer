@@ -1,0 +1,19 @@
+Functions — reusable code blocks that return values
+
+return — sends results back to the main program
+
+CSV rows — each row is a dictionary (row["key"])
+
+Data cleaning — remove spaces and skip bad values
+
+Accumulator pattern — start at 0 and keep adding
+
+Initialization — variables must exist before use
+
+Loops — process data one item at a time
+
+Defensive coding — handle empty or invalid input
+
+Separation of concerns — logic, data, and output are separate
+
+Debugging logic — fixing why code is wrong, not syntax

@@ -1,0 +1,17 @@
+📊 Matplotlib (Most Used)
+plt.plot() → line chart
+plt.bar() / plot(kind="bar") → bar chart
+plt.title() → chart title
+plt.xlabel() / plt.ylabel() → axis labels
+plt.show() → display chart
+plt.savefig() → save chart as image
+
+🎨 Seaborn (Most Used)
+sns.barplot() → categorical bar charts
+sns.lineplot() → trend lines
+sns.histplot() → distributions
+sns.set_style() → change chart theme
+
+🔑 Key Difference
+Matplotlib = plotting engine
+Seaborn = cleaner, nicer visuals

@@ -1,0 +1,54 @@
+📘 Day 11 — Insights + Structure (Notes)
+
+Analysis vs Printing
+Analysis = calculating numbers
+Printing = showing results to humans
+
+Dictionaries are used to store results together
+One function returns many related values
+
+analysis variable
+Holds all computed results
+Used later for printing and plotting
+
+main() function
+Controls the flow of the program
+Calls functions in the correct order
+
+Remaining money
+income − total_expenses
+Shows how much money is left
+
+📘 Day 12 — Visualization + Professional Setup (Notes)
+
+Seaborn is built on top of Matplotlib
+Seaborn = cleaner charts
+Matplotlib = figure size, labels, showing plot
+
+Both are used together
+Seaborn for bars
+Matplotlib for layout
+
+Virtual environment (.venv)
+Libraries must be installed inside it
+Otherwise Python cannot find them
+
+main.py
+Entry point of the program
+Runs the main logic
+
+final_analyzer.py
+Contains all data analysis logic
+
+📘 Key Python Concepts (Notes)
+
+Functions return values
+Variables are created where functions are called
+
+Dictionaries
+Key → value pairs
+Used to store analysis results
+
+if __name__ == "__main__"
+Runs code only when file is executed directly
+Prevents auto-running when imported
